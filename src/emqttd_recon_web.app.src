@@ -1,0 +1,13 @@
+{application, emqttd_recon_web,
+ [
+  {description, "emqttd recon plugin"},
+  {vsn, "0.17.0"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  recon_web
+                 ]},
+  {mod, { emqttd_recon_web_app, []}},
+  {env, []}
+ ]}.
